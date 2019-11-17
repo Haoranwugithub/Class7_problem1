@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses
+CMAKE_SOURCE_DIR = /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/unit_test.dir/depend.make
@@ -59,29 +59,29 @@ include test/CMakeFiles/unit_test.dir/flags.make
 
 test/CMakeFiles/unit_test.dir/main.cpp.o: test/CMakeFiles/unit_test.dir/flags.make
 test/CMakeFiles/unit_test.dir/main.cpp.o: ../test/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/unit_test.dir/main.cpp.o"
-	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_test.dir/main.cpp.o -c /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/unit_test.dir/main.cpp.o"
+	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_test.dir/main.cpp.o -c /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/test/main.cpp
 
 test/CMakeFiles/unit_test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unit_test.dir/main.cpp.i"
-	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/test/main.cpp > CMakeFiles/unit_test.dir/main.cpp.i
+	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/test/main.cpp > CMakeFiles/unit_test.dir/main.cpp.i
 
 test/CMakeFiles/unit_test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unit_test.dir/main.cpp.s"
-	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/test/main.cpp -o CMakeFiles/unit_test.dir/main.cpp.s
+	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/test/main.cpp -o CMakeFiles/unit_test.dir/main.cpp.s
 
 test/CMakeFiles/unit_test.dir/unit_tests.cpp.o: test/CMakeFiles/unit_test.dir/flags.make
 test/CMakeFiles/unit_test.dir/unit_tests.cpp.o: ../test/unit_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/unit_test.dir/unit_tests.cpp.o"
-	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_test.dir/unit_tests.cpp.o -c /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/test/unit_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/unit_test.dir/unit_tests.cpp.o"
+	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_test.dir/unit_tests.cpp.o -c /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/test/unit_tests.cpp
 
 test/CMakeFiles/unit_test.dir/unit_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unit_test.dir/unit_tests.cpp.i"
-	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/test/unit_tests.cpp > CMakeFiles/unit_test.dir/unit_tests.cpp.i
+	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/test/unit_tests.cpp > CMakeFiles/unit_test.dir/unit_tests.cpp.i
 
 test/CMakeFiles/unit_test.dir/unit_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unit_test.dir/unit_tests.cpp.s"
-	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/test/unit_tests.cpp -o CMakeFiles/unit_test.dir/unit_tests.cpp.s
+	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/test/unit_tests.cpp -o CMakeFiles/unit_test.dir/unit_tests.cpp.s
 
 # Object files for target unit_test
 unit_test_OBJECTS = \
@@ -96,8 +96,8 @@ unit_test_EXTERNAL_OBJECTS =
 ../bin/unit_test: test/CMakeFiles/unit_test.dir/build.make
 ../bin/unit_test: ../lib/libgtest.a
 ../bin/unit_test: test/CMakeFiles/unit_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/unit_test"
-	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unit_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/unit_test"
+	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unit_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/unit_test.dir/build: ../bin/unit_test
@@ -105,10 +105,10 @@ test/CMakeFiles/unit_test.dir/build: ../bin/unit_test
 .PHONY : test/CMakeFiles/unit_test.dir/build
 
 test/CMakeFiles/unit_test.dir/clean:
-	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test && $(CMAKE_COMMAND) -P CMakeFiles/unit_test.dir/cmake_clean.cmake
+	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test && $(CMAKE_COMMAND) -P CMakeFiles/unit_test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/unit_test.dir/clean
 
 test/CMakeFiles/unit_test.dir/depend:
-	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/test /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/cmake-build-debug/test/CMakeFiles/unit_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/test /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/cmake-build-debug/test/CMakeFiles/unit_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/unit_test.dir/depend
 

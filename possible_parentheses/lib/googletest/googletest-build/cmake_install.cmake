@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/lib/googletest/googletest-src
+# Install script for directory: /Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/lib/googletest/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/lib/googletest/googletest-build/googlemock/cmake_install.cmake")
+  include("/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/lib/googletest/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 

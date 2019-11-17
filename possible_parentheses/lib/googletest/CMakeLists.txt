@@ -7,8 +7,8 @@ include(ExternalProject)
 
 ExternalProject_Add(
   googletest
-  SOURCE_DIR "/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/lib/googletest/googletest-src"
-  BINARY_DIR "/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/possible_parentheses/lib/googletest/googletest-build"
+  SOURCE_DIR "/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/lib/googletest/googletest-src"
+  BINARY_DIR "/Users/Wu/Desktop/UWB_CSS342_2019_Fall/UWB_CSS342_2019_Fall/class7/homework/problem_1/Class7_problem1/possible_parentheses/lib/googletest/googletest-build"
   GIT_REPOSITORY
     https://github.com/google/googletest.git
   GIT_TAG
